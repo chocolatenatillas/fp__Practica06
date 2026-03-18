@@ -13,8 +13,8 @@ int main () {
     scanf ("%c", &op);
 
     printf ("Selecciones una opción\n");
-    Printf ("1. Suma\n");
-    Printf ("2. Resta\n");
+    printf ("1. Suma\n");
+    printf ("2. Resta\n");
     printf ("3. Multiplicación\n");
     printf ("4. División\n");
     printf ("5. Módulo\n");
