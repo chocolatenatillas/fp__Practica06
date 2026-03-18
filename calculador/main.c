@@ -7,7 +7,7 @@ int main () {
     char op, op2;
 
     printf ("Selecciones una opción\n");
-    Printf ("1. Operaciones con enteros\n");
+    printf ("1. Operaciones con enteros\n");
     printf ("2. Operasciones con reales\n");
 
     scanf ("%c", &op);
@@ -15,37 +15,37 @@ int main () {
     printf ("Selecciones una opción\n");
     Printf ("1. Suma\n");
     Printf ("2. Resta\n");
-    Printf ("3. Multiplicación\n");
-    Printf ("4. División\n");
-    Printf ("5. Módulo\n");
-    Printf ("6. Salir\n");
+    printf ("3. Multiplicación\n");
+    printf ("4. División\n");
+    printf ("5. Módulo\n");
+    printf ("6. Salir\n");
     scanf ("%c", &op2);
 
 
-    if (op == ´1´)
+    if (op == '1')
     {
         printf ("Ingresa los dos numeros con los que quieres trabajar\n");
         scanf ("%d %d", &a, &b);
         switch (op2)
         {
         case 1:
-            h= f+g
+            h= f+g;
             break;
 
         case 2:
-            h= f-g
+            h= f-g;
             break;
 
         case 3:
-            h= f*g
+            h= f*g;
             break;
 
         case 4:
-            h= f/g
+            h= f/g;
             break;
 
         case 5:
-            h= (int)f%(int)g 
+            h= (int)f%(int)g ;
             break;
         
         default:
@@ -59,23 +59,23 @@ int main () {
         scanf ("%d %d", &a, &b);
         switch (op2) {
         case 1:
-            h= f+g
+            h= f+g;
             break;
 
         case 2:
-            h= f-g
+            h= f-g;
             break;
 
         case 3:
-            h= f*g
+            h= f*g;
             break;
 
         case 4:
-            h= f/g
+            h= f/g;
             break;
 
         case 5:
-            h= (int)f%(int)g 
+            h= (int)f%(int)g ;
             break;
         
         default:
